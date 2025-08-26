@@ -243,14 +243,87 @@ Description=Default
 AllowFabrication=0
 ParameterCount=0
 VariationCount=7
-Variation1=Designator=R?|UniqueId=\BDBTCGOC\LBJIPOWJ|Kind=1|AlternatePart=
-Variation2=Designator=R36|UniqueId=\BDBTCGOC\NGDUBJSF|Kind=1|AlternatePart=
-Variation3=Designator=R37|UniqueId=\BDBTCGOC\BNRFFTET|Kind=1|AlternatePart=
-Variation4=Designator=R33|UniqueId=\BDBTCGOC\TSWSVFIK|Kind=1|AlternatePart=
-Variation5=Designator=R34|UniqueId=\BDBTCGOC\BQOETUZZ|Kind=1|AlternatePart=
-Variation6=Designator=R4|UniqueId=\BDBTCGOC\RXRTXKOV|Kind=1|AlternatePart=
+Variation1=Designator=R9|UniqueId=\BDBTCGOC\LBJIPOWJ|Kind=1|AlternatePart=
+Variation2=Designator=R10|UniqueId=\BDBTCGOC\NGDUBJSF|Kind=1|AlternatePart=
+Variation3=Designator=R11|UniqueId=\BDBTCGOC\BNRFFTET|Kind=1|AlternatePart=
+Variation4=Designator=R15|UniqueId=\BDBTCGOC\TSWSVFIK|Kind=1|AlternatePart=
+Variation5=Designator=R16|UniqueId=\BDBTCGOC\BQOETUZZ|Kind=1|AlternatePart=
+Variation6=Designator=R5|UniqueId=\BDBTCGOC\RXRTXKOV|Kind=1|AlternatePart=
 Variation7=Designator=R2|UniqueId=\BDBTCGOC\RIJFEXAN|Kind=1|AlternatePart=
 ParamVariationCount=0
+
+[ProjectVariant2]
+UniqueId=e3daa0a8-996f-4710-8c02-362f04cf1c9e
+Description=60V
+AllowFabrication=0
+ParameterCount=0
+VariationCount=1
+Variation1=Designator=R22A|UniqueId=\OWMMCCPN\LYYSFNFA|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Name And Type|AltLibLink_LibraryIdentifier=user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=Resistor|AltLibLink_DesignItemID=RT0805BRD07499KL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0805_TE|AltLibLink_IsSameFootprint=True
+ParamVariation1=ParameterName=Comment|VariantValue==Value
+ParamDesignator1=R22A
+ParamVariation2=ParameterName=Component Kind|VariantValue=Standard
+ParamDesignator2=R22A
+ParamVariation3=ParameterName=ComponentLink1Description|VariantValue=Datasheet
+ParamDesignator3=R22A
+ParamVariation4=ParameterName=ComponentLink1URL|VariantValue=https://jlcpcb.com/partdetail/YAGEO-RT0805BRD07499KL/C706243
+ParamDesignator4=R22A
+ParamVariation5=ParameterName=Component Type|VariantValue=SMD resistor
+ParamDesignator5=R22A
+ParamVariation6=ParameterName=Created from|VariantValue=NDiringer
+ParamDesignator6=R22A
+ParamVariation7=ParameterName=Created On|VariantValue=25.08.2025 14:35:53
+ParamDesignator7=R22A
+ParamVariation8=ParameterName=Database Table Name|VariantValue=Resistors - SMD
+ParamDesignator8=R22A
+ParamVariation9=ParameterName=Description|VariantValue=-55℃~+155℃ 125mW 150V 499kΩ Thin Film Resistor ±0.1% ±25ppm/℃ 0805 Chip Resistor - Surface Mount ROHS
+ParamDesignator9=R22A
+ParamVariation10=ParameterName=Device Package|VariantValue=0805
+ParamDesignator10=R22A
+ParamVariation11=ParameterName=Footprint|VariantValue=R_0805_TE
+ParamDesignator11=R22A
+ParamVariation12=ParameterName=Ibis Model|VariantValue=
+ParamDesignator12=R22A
+ParamVariation13=ParameterName=Last Updated|VariantValue=25.08.2025 14:35:53
+ParamDesignator13=R22A
+ParamVariation14=ParameterName=LCSC Part Number|VariantValue=C706243
+ParamDesignator14=R22A
+ParamVariation15=ParameterName=Library Reference|VariantValue=RT0805BRD07499KL
+ParamDesignator15=R22A
+ParamVariation16=ParameterName=Live Cycle Status|VariantValue=1
+ParamDesignator16=R22A
+ParamVariation17=ParameterName=Manufacturer|VariantValue=YAGEO
+ParamDesignator17=R22A
+ParamVariation18=ParameterName=Manufacturer Part Number|VariantValue=RT0805BRD07499KL
+ParamDesignator18=R22A
+ParamVariation19=ParameterName=Mounting Type|VariantValue=SMD
+ParamDesignator19=R22A
+ParamVariation20=ParameterName=PartID|VariantValue=375
+ParamDesignator20=R22A
+ParamVariation21=ParameterName=PCB3D|VariantValue=
+ParamDesignator21=R22A
+ParamVariation22=ParameterName=Pin Info|VariantValue=
+ParamDesignator22=R22A
+ParamVariation23=ParameterName=Signal Integrity|VariantValue=
+ParamDesignator23=R22A
+ParamVariation24=ParameterName=Simulation|VariantValue=
+ParamDesignator24=R22A
+ParamVariation25=ParameterName=Stock number|VariantValue=not stored
+ParamDesignator25=R22A
+ParamVariation26=ParameterName=Supplier 1|VariantValue=LCSC
+ParamDesignator26=R22A
+ParamVariation27=ParameterName=Supplier 2|VariantValue=JLCPCB
+ParamDesignator27=R22A
+ParamVariation28=ParameterName=Supplier Part Number 1|VariantValue==LCSC Part Number
+ParamDesignator28=R22A
+ParamVariation29=ParameterName=Supplier Part Number 2|VariantValue=C706243
+ParamDesignator29=R22A
+ParamVariation30=ParameterName=Tolerance|VariantValue=0.1%
+ParamDesignator30=R22A
+ParamVariation31=ParameterName=Type|VariantValue=Resistor
+ParamDesignator31=R22A
+ParamVariation32=ParameterName=Value|VariantValue=499k
+ParamDesignator32=R22A
+ParamVariationCount=32
 
 [Parameter1]
 Name=AuthorParam
