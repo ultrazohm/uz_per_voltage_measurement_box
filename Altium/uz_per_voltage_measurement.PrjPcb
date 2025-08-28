@@ -257,7 +257,7 @@ UniqueId=e3daa0a8-996f-4710-8c02-362f04cf1c9e
 Description=60V
 AllowFabrication=0
 ParameterCount=0
-VariationCount=40
+VariationCount=47
 Variation1=Designator=R23A|UniqueId=\OWMMCCPN\LYYSFNFA|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=C:\ELSYS\altium_libraries\user.DbLib/Resistors - SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=RT0805BRD07150KL|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=user.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors - SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=R_0805_TE|AltLibLink_IsSameFootprint=True
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R23A
@@ -1946,23 +1946,30 @@ ParamVariation823=ParameterName=Type|VariantValue=Resistor
 ParamDesignator823=R34A
 ParamVariation824=ParameterName=Value|VariantValue=150k
 ParamDesignator824=R34A
+Variation41=Designator=R2|UniqueId=\BDBTCGOC\RIJFEXAN|Kind=1|AlternatePart=
+Variation42=Designator=R5|UniqueId=\BDBTCGOC\RXRTXKOV|Kind=1|AlternatePart=
+Variation43=Designator=R9|UniqueId=\BDBTCGOC\LBJIPOWJ|Kind=1|AlternatePart=
+Variation44=Designator=R10|UniqueId=\BDBTCGOC\NGDUBJSF|Kind=1|AlternatePart=
+Variation45=Designator=R11|UniqueId=\BDBTCGOC\BNRFFTET|Kind=1|AlternatePart=
+Variation46=Designator=R15|UniqueId=\BDBTCGOC\TSWSVFIK|Kind=1|AlternatePart=
+Variation47=Designator=R16|UniqueId=\BDBTCGOC\BQOETUZZ|Kind=1|AlternatePart=
 ParamVariationCount=824
 
 [Parameter1]
-Name=AuthorParam
-Value=UltraZohm Community
+Name=ProjectRevision
+Value=Rev01
 
 [Parameter2]
+Name=ProjectDate
+Value=09/2025
+
+[Parameter3]
 Name=Project
 Value=uz_per_voltage_measurement_box
 
-[Parameter3]
-Name=ProjectDate
-Value=08/2025
-
 [Parameter4]
-Name=ProjectRevision
-Value=Rev01
+Name=AuthorParam
+Value=Nina Diringer
 
 [Configuration1]
 Name=Sources
@@ -2087,6 +2094,16 @@ OutputName21=Mixed Sim Netlist
 OutputDocumentPath21=
 OutputVariantName21=
 OutputDefault21=0
+OutputType22=SIMetrixNetlist
+OutputName22=SIMetrix
+OutputDocumentPath22=
+OutputVariantName22=
+OutputDefault22=0
+OutputType23=SIMPLISNetlist
+OutputName23=SIMPLIS
+OutputDocumentPath23=
+OutputVariantName23=
+OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
@@ -2098,6 +2115,16 @@ OutputName1=Mixed Sim
 OutputDocumentPath1=
 OutputVariantName1=
 OutputDefault1=0
+OutputType2=SIMetrixSimulation
+OutputName2=SIMetrix
+OutputDocumentPath2=
+OutputVariantName2=
+OutputDefault2=0
+OutputType3=SIMPLISSimulation
+OutputName3=SIMPLIS
+OutputDocumentPath3=
+OutputVariantName3=
+OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
